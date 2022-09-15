@@ -7,6 +7,7 @@
 
 import UIKit
 
+@available(iOS 13.0, *)
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
@@ -35,6 +36,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.rootViewController = navigation
         self.window?.makeKeyAndVisible()
     }
+
 
     func application(_ application: UIApplication,
                      configurationForConnecting connectingSceneSession: UISceneSession, 
