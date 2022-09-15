@@ -8,6 +8,16 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    lazy var nextButton: UIButton = {
+        let button = UIButton()
+        return button
+    }()
+    
+    lazy var containerView: UIView = {
+        let view = UIView()
+        return view
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
