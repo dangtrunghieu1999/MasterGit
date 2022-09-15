@@ -1,0 +1,23 @@
+ platform :ios, '9.0'
+
+target 'MasterGithub' do
+  use_frameworks!
+
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxSwiftExt'
+  pod 'Moya'
+  pod 'SDWebImage'
+  pod 'SnapKit'
+  pod 'NVActivityIndicatorView'
+
+  target 'MasterGithubTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MasterGithubUITests' do
+    # Pods for testing
+  end
+
+end
