@@ -1,13 +1,13 @@
 //
-//  ViewController.swift
+//  HomeViewController.swift
 //  MasterGithub
 //
-//  Created by Trung Hieu on 9/15/22.
+//  Created by Trung Hieu on 9/21/22.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
     
     // MARK: - Define Variables
     
@@ -28,4 +28,5 @@ class ViewController: UIViewController {
     // MARK: - Helper Supports
     
     // MARK: - Layouts
+
 }
