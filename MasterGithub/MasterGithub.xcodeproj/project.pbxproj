@@ -17,7 +17,6 @@
 		B2A00EA328D2C1FD0066F69E /* MasterGithubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A00EA228D2C1FD0066F69E /* MasterGithubTests.swift */; };
 		B2A00EAD28D2C1FD0066F69E /* MasterGithubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A00EAC28D2C1FD0066F69E /* MasterGithubUITests.swift */; };
 		B2A00EAF28D2C1FD0066F69E /* MasterGithubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A00EAE28D2C1FD0066F69E /* MasterGithubUITestsLaunchTests.swift */; };
-		B2A7F44128DB782E001A458A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A7F44028DB782E001A458A /* HomeViewController.swift */; };
 		CA60D7A968342C60B232380A /* Pods_MasterGithub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDDDCA75C6411FED205BFF5 /* Pods_MasterGithub.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,7 +57,6 @@
 		B2A00EA828D2C1FD0066F69E /* MasterGithubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasterGithubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A00EAC28D2C1FD0066F69E /* MasterGithubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterGithubUITests.swift; sourceTree = "<group>"; };
 		B2A00EAE28D2C1FD0066F69E /* MasterGithubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterGithubUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B2A7F44028DB782E001A458A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DFDDDCA75C6411FED205BFF5 /* Pods_MasterGithub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MasterGithub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD7B698AFB8C8AD6B2BFBC9 /* Pods-MasterGithub-MasterGithubUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasterGithub-MasterGithubUITests.release.xcconfig"; path = "Target Support Files/Pods-MasterGithub-MasterGithubUITests/Pods-MasterGithub-MasterGithubUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,7 +115,6 @@
 		B2A00E7F28D2C1FA0066F69E = {
 			isa = PBXGroup;
 			children = (
-				B2A7F44028DB782E001A458A /* HomeViewController.swift */,
 				B2A00E8A28D2C1FA0066F69E /* MasterGithub */,
 				B2A00EA128D2C1FD0066F69E /* MasterGithubTests */,
 				B2A00EAB28D2C1FD0066F69E /* MasterGithubUITests */,
@@ -408,7 +405,6 @@
 				B2A00E9028D2C1FA0066F69E /* ViewController.swift in Sources */,
 				B2A00E8C28D2C1FA0066F69E /* AppDelegate.swift in Sources */,
 				B2A00E8E28D2C1FA0066F69E /* SceneDelegate.swift in Sources */,
-				B2A7F44128DB782E001A458A /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
